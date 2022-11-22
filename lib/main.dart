@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'widgets/21.date_range_picker.dart';
+import 'widgets/22.dismissible_widget.dart';
 
-import 'widgets/16.alert_dialog.dart';
+
 
 
 void main() {
@@ -47,6 +49,12 @@ class _Widgets100ChallengeState extends State<Widgets100Challenge> {
     "assets/100widgetsgifs/14.CupertinoContextMenu.gif",
     "assets/100widgetsgifs/15.Table.gif",
     "assets/100widgetsgifs/16.AlertDialog.gif",
+    "assets/100widgetsgifs/17.AnimatedContainer.gif",
+    "assets/100widgetsgifs/18.Card.gif",
+    "assets/100widgetsgifs/19.DatePicker.gif",
+    "assets/100widgetsgifs/20.TimePicker.gif",
+    "assets/100widgetsgifs/21.DateRangePicker.gif",
+    "assets/100widgetsgifs/22.Dismissible.gif",
   ];
   @override
   Widget build(BuildContext context) {
