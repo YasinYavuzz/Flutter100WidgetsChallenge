@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'widgets/21.date_range_picker.dart';
-import 'widgets/22.dismissible_widget.dart';
-
-
-
+import 'widgets/29.pop_up_menu_button.dart';
+import 'widgets/30.animated_default_text_style.dart';
+import 'widgets/31.aspect_ratio.dart';
+import 'widgets/32.auto_complete.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue, scaffoldBackgroundColor: Colors.black45),
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
-      home: Widgets100Challenge(),
+      home: const Widgets100Challenge(),
     );
   }
 }
@@ -55,6 +54,16 @@ class _Widgets100ChallengeState extends State<Widgets100Challenge> {
     "assets/100widgetsgifs/20.TimePicker.gif",
     "assets/100widgetsgifs/21.DateRangePicker.gif",
     "assets/100widgetsgifs/22.Dismissible.gif",
+    "assets/100widgetsgifs/23.DraggableScrollableSheet.gif",
+    "assets/100widgetsgifs/24.Draggable.gif",
+    "assets/100widgetsgifs/25.DragTarget.gif",
+    "assets/100widgetsgifs/26.AnimatedCrossFade.gif",
+    "assets/100widgetsgifs/27.Drawer.gif",
+    "assets/100widgetsgifs/28.DrawerHeader.gif",
+    "assets/100widgetsgifs/29.PopUpMenuButton.gif",
+    "assets/100widgetsgifs/30.AnimatedDefaultTextStyle.gif",
+    "assets/100widgetsgifs/31.AspectRatio.gif",
+    "assets/100widgetsgifs/32.Autocomplete.gif",
   ];
   @override
   Widget build(BuildContext context) {
